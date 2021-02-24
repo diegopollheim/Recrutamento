@@ -1,0 +1,13 @@
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\bin\Debug\Recrutamento.exe.config
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\bin\Debug\Recrutamento.exe
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\bin\Debug\Recrutamento.pdb
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.Properties.Resources.resources
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.csproj.GenerateResource.cache
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.csproj.CoreCompileInputs.cache
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.exe
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.pdb
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.Form1.resources
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.Form2.resources
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.csprojAssemblyReference.cache
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.Form3.resources
+C:\Users\Diego-Katia\Documents\DIEGO\Recrutamento\obj\Debug\Recrutamento.Form4.resources
