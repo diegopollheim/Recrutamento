@@ -33,11 +33,9 @@ namespace Recrutamento
 
             MessageBox.Show("Salas de Treinamento Cadastradas com sucesso!","Feito");
 
+            this.Hide();
             Form3 form3 = new Form3();
-            form3.Hide();
-            form3.ShowDialog();
-            this.Close();
-            
+            form3.ShowDialog();            
         }
     }
 }

@@ -42,11 +42,9 @@ namespace Recrutamento
 
         private void btnProximo_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
             Form2 form2 = new Form2();
-            form2.Hide();
             form2.ShowDialog();
-            this.Close();
         }
     }
 }

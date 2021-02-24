@@ -36,10 +36,9 @@ namespace Recrutamento
             
             MessageBox.Show("Salas de Café Cadastradas!","Feito");
 
+            this.Hide();
             Form4 form4 = new Form4();
-            form4.Hide();
             form4.ShowDialog();
-            this.Close();
         }
 
         public void TratamentoDeDados()
