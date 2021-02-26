@@ -14,8 +14,7 @@ namespace Recrutamento
     public partial class Form1 : Form
     {
         public List<string> aluno = new List<string>();
-        string teste = "mensagem de teste";
-
+        
         public Form1()
         {
             InitializeComponent();
