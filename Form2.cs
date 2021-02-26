@@ -22,6 +22,10 @@ namespace Recrutamento
             InitializeComponent();
         }
 
+        public Form2(string parametro) :this ()
+        {
+            string var = parametro;
+        }
         private void btnCadastrarSalas_Click(object sender, EventArgs e)
         {
 

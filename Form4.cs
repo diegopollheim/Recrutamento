@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,26 +13,38 @@ namespace Recrutamento
 {
     public partial class Form4 : Form
     {
-        
+
+        public Form4(string parametro) : this()
+        {
+            string var = parametro;
+        }
 
         public Form4()
         {
             InitializeComponent();
+
+
         }
 
         
 
-    private void btnConsultarAluno_Click(object sender, EventArgs e)
+        private void btnConsultarAluno_Click(object sender, EventArgs e)
         {
             Form1 cadastroAluno = new Form1();
             Form2 salaTreinamento = new Form2();
             Form3 salasCafe = new Form3();
 
+           
+           
             var procurar = txtNomeConsulta.Text;
-            if (cadastroAluno.aluno.Contains(procurar))
+           
+            foreach (var aluno in cadastroAluno.aluno)
             {
-                // resultadoConsultaAluno.Text = procurar.ToString(); mostrar a sala e cafe do aluno pesquisado.
+
             }
+
+        
+
             //for (int i = 0; i < cadastroAluno.aluno.Length; i++)
             //{
             //    if (txtNomeConsulta.Text == cadastroAluno.aluno[i])
