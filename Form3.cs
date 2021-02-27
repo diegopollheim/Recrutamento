@@ -17,8 +17,8 @@ namespace Recrutamento
         public string cafe02 = "";
         public int lotCafe02;
 
-        public List<string> alunosSala01 = new List<string>();
-        public List<string> alunosSala02 = new List<string>();
+        public List<string> alunosSala01 = new List<string>();// LISTA DE ALUNOS SALA-01
+        public List<string> alunosSala02 = new List<string>();// LISTA DE ALUNOS SALA-02
 
         public Form3()
         {
@@ -27,7 +27,6 @@ namespace Recrutamento
 
         private void btnCadastrarCafes_Click(object sender, EventArgs e)
         {
-
             cafe01 = txtNomeCafe01.Text;
             lotCafe01 = int.Parse(txtLotacaoCafe01.Text);
             cafe02 = txtNomeCafé02.Text;
@@ -43,15 +42,7 @@ namespace Recrutamento
 
         public void TratamentoDeDados()
         {
-            // fazer a divisao dos alunos e salas aqui...
-            Form1 pegarAlunos = new Form1();
-
-            var qtdalunos = pegarAlunos.aluno.Count;
-
-            foreach (var i in pegarAlunos.aluno)
-            {
-                alunosSala01 = pegarAlunos.aluno;
-            }
+            // TRATAMENTO DE DADOS | Método que será feita toda a divsao de alunos por sala de treinamento e cafe nas suas etapas.           
         }
     }
 }

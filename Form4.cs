@@ -22,25 +22,23 @@ namespace Recrutamento
         public Form4()
         {
             InitializeComponent();
-
-
-        }
-
-        
+        }       
 
         private void btnConsultarAluno_Click(object sender, EventArgs e)
         {
             Form1 cadastroAluno = new Form1();
             Form2 salaTreinamento = new Form2();
             Form3 salasCafe = new Form3();
-
-           
-           
+                     
             var procurar = txtNomeConsulta.Text;
+            int cont = cadastroAluno.aluno.Count;
            
-            foreach (var aluno in cadastroAluno.aluno)
+            for (int i = 0; i > cont; i++)
             {
-
+                if (cadastroAluno.aluno[i].Contains(procurar))
+                {
+                    resultadoConsultaAluno.Text = cadastroAluno.aluno[i];
+                }
             }
 
         

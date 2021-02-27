@@ -22,8 +22,6 @@ namespace Recrutamento
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            teste = "mesagem de teste";
-
             listaCadastrados.Items.Clear();
              
             aluno.Add($"{txtNome.Text} {txtSobrenome.Text}");
@@ -45,7 +43,7 @@ namespace Recrutamento
         private void btnProximo_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 form2 = new Form2(teste);
+            Form2 form2 = new Form2();
             form2.ShowDialog();
         }
     }
