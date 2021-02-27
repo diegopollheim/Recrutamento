@@ -1,6 +1,7 @@
 # Instruções de Compilação
 # Recrutamento  (Aplicação nao finalizada)
 Aplicação feita para gerenciar um treinamento de duas etapas cadastrando salas e pessoas.
+Esta aplicação foi feita em Fomrs (C#) e precisa ter o pacote de compilação visual studio instalado.
 
 1. Na tela inicial tem a opção de cadastrar pessoas, ao clicar no botao cadastrar a pessoa cadastrada
 aparecera na lista ao lado quando forem cadastradas todas as pessoas clicar em próximo.
